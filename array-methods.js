@@ -5,3 +5,9 @@ const arr = ["Mouse", "Laptop"];
 arr.push("Phone");
 
 console.log(arr); // ['Mouse', 'Laptop', Phone]
+
+// pop() method is used to remove an elemnt or the last elemnt
+
+arr.pop();
+
+console.log(arr); // ["Mouse", "Laptop"]
